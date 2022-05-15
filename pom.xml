@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.crud</groupId>
-	<artifactId>mongoCrud</artifactId>
+	<artifactId>mongo-crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mongoCrud</name>
 	<description>Project for Spring Boot with MongoDB</description>

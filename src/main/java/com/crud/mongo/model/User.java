@@ -1,4 +1,4 @@
-package com.crud.mongoCrud.model;
+package com.crud.mongo.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

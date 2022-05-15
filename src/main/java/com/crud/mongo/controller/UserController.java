@@ -1,4 +1,4 @@
-package com.crud.mongoCrud.controller;
+package com.crud.mongo.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.crud.mongoCrud.model.User;
-import com.crud.mongoCrud.service.UserService;
+import com.crud.mongo.model.User;
+import com.crud.mongo.service.UserService;
 
 @RestController
 public class UserController {

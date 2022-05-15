@@ -1,4 +1,4 @@
-package com.crud.mongoCrud.service;
+package com.crud.mongo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.crud.mongoCrud.model.User;
-import com.crud.mongoCrud.repository.UserRepository;
+import com.crud.mongo.model.User;
+import com.crud.mongo.repository.UserRepository;
 
 @Service
 public class UserService {
