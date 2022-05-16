@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import exception.EmptyInputException;
+import com.crud.mongo.exception.handler.EmptyInputException;
 
 @ControllerAdvice
 public class MyControllerAdvice extends ResponseEntityExceptionHandler {
@@ -23,7 +23,7 @@ public class MyControllerAdvice extends ResponseEntityExceptionHandler {
 	
 	@ExceptionHandler(NoSuchElementException.class)
 	public ResponseEntity<String> handleNoSuchElementException(NoSuchElementException noSuchElementException) {
-		return new ResponseEntity<String>("No value found in DB", HttpStatus.NOT_FOUND	);
+		return new ResponseEntity<String>("No value found in DB", HttpStatus.NOT_FOUND);
 	}
 	
 	@Override

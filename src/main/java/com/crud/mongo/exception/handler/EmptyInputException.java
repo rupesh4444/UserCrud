@@ -1,4 +1,4 @@
-package exception;
+package com.crud.mongo.exception.handler;
 
 import org.springframework.stereotype.Component;
 
@@ -7,8 +7,8 @@ public class EmptyInputException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 	
-	private final String errorCode;
-	private final String errorMssg;
+	private String errorCode;
+	private String errorMssg;
 	
 	public String getErrorCode() {
 		return errorCode;
@@ -23,6 +23,10 @@ public class EmptyInputException extends RuntimeException {
 		super();
 		this.errorCode = errorCode;
 		this.errorMssg = errorMssg;
+	}
+	
+	public EmptyInputException() {
+		
 	}
 
 }
