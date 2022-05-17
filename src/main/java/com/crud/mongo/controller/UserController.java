@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.crud.mongo.model.User;
-import com.crud.mongo.sequence.SequenceGenerator;
 import com.crud.mongo.service.UserService;
 
 @RestController
